@@ -59,6 +59,8 @@ class Controller {
 
 			// la tilde ~ es un Bitwise Not Operator
 			~user && array.splice(user, id);
+
+			resolve(`Usuario con id ${id} borrado exitosamente.`);
 		});
 	}
 }
